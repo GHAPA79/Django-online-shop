@@ -1,0 +1,15 @@
+{% extends '_base.html' %}
+
+{% block page_title %}
+    Product Detail
+{% endblock page_title %}
+
+{% block content %}
+
+    <h1>Product Detail Page</h1>
+    <h3>{{ product.title }}</h3>
+    <h3>{{ product.description }}</h3>
+    <h5>{{ product.price }}</h5>
+    <a href="{% url 'products_list' %}">Product List</a>
+
+{% endblock %}

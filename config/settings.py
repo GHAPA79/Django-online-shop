@@ -43,16 +43,17 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # Local apps
+    'accounts.apps.AccountsConfig',
+    'pages.apps.PagesConfig',
+    'products.apps.ProductsConfig',
+
     # Third party apps
     'crispy_forms',
     'crispy_bootstrap5',
     'allauth',
     'allauth.account',
-    # 'allauth.socialaccount', > (for social accounts)
-
-    # Local apps
-    'accounts',
-    'pages',
+    # 'allauth.socialaccount', > (for social accounts) > Like GitHub, Google,...
 ]
 
 SITE_ID = 1

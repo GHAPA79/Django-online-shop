@@ -80,11 +80,11 @@
                                     </a>
                                     <a class="m-0 product-data-tab__link nav-link" id="nav-info-tab" data-toggle="tab"
                                        href="#nav-info" role="tab" aria-selected="true">
-                                        <span>ویژگی ها</span>
+                                        <span>{% trans 'Atributies' %}</span>
                                     </a>
                                     <a class="m-0 product-data-tab__link nav-link" id="nav-reviews-tab"
                                        data-toggle="tab" href="#nav-reviews" role="tab" aria-selected="true">
-                                        <span>نظرات ({{ product.comments.all|only_active_comments|length }})</span>
+                                        <span>{% trans 'Comments' %}({{ product.comments.all|only_active_comments|length }})</span>
                                     </a>
                                 </div>
                                 <div class="tab-content product-data-tab__content" id="product-tabContent">
@@ -104,11 +104,11 @@
                                                     <td>۴۳۰ گرم</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>سایز</th>
+                                                    <th>{% trans 'Size' %}</th>
                                                     <td>XL</td>
                                                 </tr>
                                                 <tr>
-                                                    <th>رنگ</th>
+                                                    <th>{% trans 'Color' %}</th>
                                                     <td>
                                                         <a href="shop-sidebar.html">مشکی</a>,
                                                         <a href="shop-sidebar.html">سبز</a>,
@@ -192,9 +192,9 @@
                             </div>
                             <div class="footer-widget mb--50 pb--1">
                                 <ul class="footer-menu">
-                                    <li><a href="">درباره ما</a></li>
-                                    <li><a href="">قوانین و مقررات</a></li>
-                                    <li><a href="">تماس با ما</a></li>
+                                    <li><a href="">{% trans 'About Us' %}</a></li>
+                                    <li><a href="">{% trans 'Requirements' %}</a></li>
+                                    <li><a href="">{% trans 'Contact Us' %}</a></li>
                                 </ul>
                             </div>
                             <div class="footer-widget">
@@ -227,7 +227,7 @@
             <div class="mini-cart-wrapper">
                 <a href="" class="btn-close"><i class="flaticon flaticon-cross"></i></a>
                 <div class="mini-cart-inner">
-                    <h3 class="mini-cart__heading mb--40 mb-lg--30 text-right">سبد خرید</h3>
+                    <h3 class="mini-cart__heading mb--40 mb-lg--30 text-right">{% trans 'Shopping Bag' %}</h3>
                     <div class="mini-cart__content">
                         <ul class="mini-cart__list text-right">
                             <li class="mini-cart__product d-flex justify-content-between">
@@ -286,12 +286,12 @@
                             </li>
                         </ul>
                         <div class="mini-cart__total">
-                            <span>جمع کل</span>
+                            <span>{% trans 'Total' %}</span>
                             <span class="ammount">۱۴۸,۰۰۰ تومان</span>
                         </div>
                         <div class="mini-cart__buttons">
-                            <a href="cart.html" class="btn btn-fullwidth btn-bg-sand mb--20">مشاهده سبد خرید</a>
-                            <a href="checkout.html" class="btn btn-fullwidth btn-bg-sand">پرداخت</a>
+                            <a href="cart.html" class="btn btn-fullwidth btn-bg-sand mb--20">{% trans 'View Cart' %}</a>
+                            <a href="checkout.html" class="btn btn-fullwidth btn-bg-sand">{% trans 'Payment' %}</a>
                         </div>
                     </div>
                 </div>

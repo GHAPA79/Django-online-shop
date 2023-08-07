@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-06 16:00+0330\n"
+"POT-Creation-Date: 2023-08-07 15:26+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: .\models.py:30
+msgid "Very Bad"
+msgstr "خیلی بد"
+
+#: .\models.py:31
+msgid "Bad"
+msgstr "بد"
+
+#: .\models.py:32
+msgid "Normal"
+msgstr "معمولی"
+
+#: .\models.py:33
+msgid "Good"
+msgstr "خوب"
+
+#: .\models.py:34
+msgid "Perfect"
+msgstr "عالی"
+
+#: .\models.py:39
+msgid "Comment Text"
+msgstr "متن دیدگاه"
+
+#: .\models.py:40
+msgid "Your score for this product"
+msgstr "امتیاز شما به این محصول کدام است؟"
 
 #: .\templates\products\product_detail.html:21
 msgid "Product detail"
@@ -34,10 +62,24 @@ msgid "Categories"
 msgstr "دسته بندی"
 
 #: .\templates\products\product_detail.html:79
-#, fuzzy
-#| msgid "Product detail"
 msgid "Product description"
 msgstr "توضیحات محصول"
+
+#: .\templates\products\product_detail.html:83
+msgid "Atributies"
+msgstr "ویژگی ها"
+
+#: .\templates\products\product_detail.html:87
+msgid "Comments"
+msgstr "نظرات"
+
+#: .\templates\products\product_detail.html:107
+msgid "Size"
+msgstr "سایز"
+
+#: .\templates\products\product_detail.html:111
+msgid "Color"
+msgstr "رنگ"
 
 #: .\templates\products\product_detail.html:161
 msgid "write your comment"
@@ -46,3 +88,31 @@ msgstr "نظر خود را بنویسید"
 #: .\templates\products\product_detail.html:166
 msgid "Submit"
 msgstr "ارسال"
+
+#: .\templates\products\product_detail.html:195
+msgid "About Us"
+msgstr "درباره ما"
+
+#: .\templates\products\product_detail.html:196
+msgid "Requirements"
+msgstr "قوانبن و مقررات"
+
+#: .\templates\products\product_detail.html:197
+msgid "Contact Us"
+msgstr "تماس با ما"
+
+#: .\templates\products\product_detail.html:230
+msgid "Shopping Bag"
+msgstr "سبد خرید"
+
+#: .\templates\products\product_detail.html:289
+msgid "Total"
+msgstr "جمع کل"
+
+#: .\templates\products\product_detail.html:293
+msgid "View Cart"
+msgstr "مشاهده سبد خرید"
+
+#: .\templates\products\product_detail.html:294
+msgid "Payment"
+msgstr "پرداخت"

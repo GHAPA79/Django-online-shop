@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 import os.path
 from pathlib import Path
 from environs import Env
+from django.contrib.messages import constants as messages
+
 
 # For environment variables
 env = Env()
@@ -174,3 +176,6 @@ ACCOUNT_UNIQUE_EMAIL = True
 # Crispy forms config
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
 CRISPY_AllOWED_TEMPLATE_PACKS = 'bootstrap5'
+
+# Messages config
+MESSAGES_TAGS = {messages.ERROR: 'danger'}

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-16 14:37+0330\n"
+"POT-Creation-Date: 2023-08-16 15:51+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -81,39 +81,47 @@ msgstr "سایز"
 msgid "Color"
 msgstr "رنگ"
 
-#: .\templates\products\product_detail.html:168
+#: .\templates\products\product_detail.html:169
 msgid "write your comment"
 msgstr "نظر خود را بنویسید"
 
-#: .\templates\products\product_detail.html:174
+#: .\templates\products\product_detail.html:175
 msgid "Submit"
 msgstr "ارسال"
 
-#: .\templates\products\product_detail.html:203
+#: .\templates\products\product_detail.html:178
+msgid "To write your comment please "
+msgstr "برای ثبت نظر لظفا وارد حساب کاربری خود شوید:"
+
+#: .\templates\products\product_detail.html:179
+msgid "Login"
+msgstr "ورود"
+
+#: .\templates\products\product_detail.html:209
 msgid "About Us"
 msgstr "درباره ما"
 
-#: .\templates\products\product_detail.html:204
+#: .\templates\products\product_detail.html:210
 msgid "Requirements"
 msgstr "قوانبن و مقررات"
 
-#: .\templates\products\product_detail.html:205
+#: .\templates\products\product_detail.html:211
 msgid "Contact Us"
 msgstr "تماس با ما"
 
-#: .\templates\products\product_detail.html:238
+#: .\templates\products\product_detail.html:244
 msgid "Shopping Bag"
 msgstr "سبد خرید"
 
-#: .\templates\products\product_detail.html:297
+#: .\templates\products\product_detail.html:303
 msgid "Total"
 msgstr "جمع کل"
 
-#: .\templates\products\product_detail.html:301
+#: .\templates\products\product_detail.html:307
 msgid "View Cart"
 msgstr "مشاهده سبد خرید"
 
-#: .\templates\products\product_detail.html:302
+#: .\templates\products\product_detail.html:308
 msgid "Payment"
 msgstr "پرداخت"
 

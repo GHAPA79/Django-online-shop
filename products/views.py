@@ -1,6 +1,7 @@
 from django.views import generic
 from django.shortcuts import get_object_or_404
 from django.contrib.messages.views import SuccessMessageMixin
+from django.utils.translation import gettext as _
 
 from .models import Product, Comment
 from .forms import CommentForm
@@ -27,7 +28,7 @@ class ProductDetailView(generic.DetailView):
 class CommentCreateView(SuccessMessageMixin, generic.CreateView):
     model = Comment
     form_class = CommentForm
-    success_message = "Your comment has been successfully registered "
+    success_message = _("Your comment has been successfully registered ")
 
     def form_valid(self, form):
         obj = form.save(commit=False)

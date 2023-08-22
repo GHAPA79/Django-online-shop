@@ -5,6 +5,7 @@
 {% load crispy_forms_filters %}
 {% load comment_tags %}
 {% load i18n %}
+{% load jalali_tags %}
 
 {% block page_title %}
     Product Detail Page
@@ -130,10 +131,10 @@
                                                                     <img src="{% static 'img/others/comment-1.jpg' %}"
                                                                          alt="Review Avatar" class="review__avatar p-3">
                                                                     <div>
-                                                                        <div class="review__meta">
-                                                                            <span class="review__published-date">{{ comment.datetime_modified }}</span>
+                                                                        <div class="review__meta" dir="ltr">
+                                                                            <span class="review__published-date">{{ comment.datetime_modified|to_jalali:'%Y/%m/%d _ %H:%M:%S' }}</span>
                                                                             <span class="review__dash">-</span>
-                                                                            <strong class="review__author px-4">{{ comment.author }}</strong>
+                                                                            <strong class="review__author px-4">{{ comment.author.username }}</strong>
                                                                         </div>
                                                                         <div class="product-rating">
                                                                             <div class="m-0 star-rating star-five">

@@ -44,19 +44,21 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # Local apps
-    'accounts.apps.AccountsConfig',
-    'pages.apps.PagesConfig',
-    'products.apps.ProductsConfig',
-    'cart.apps.CartConfig',
-
     # Third party apps
+    'jalali_date',
     'rosetta',
     'crispy_forms',
     'crispy_bootstrap5',
     'allauth',
     'allauth.account',
     # 'allauth.socialaccount', > (for social accounts) > Like GitHub, Google,...
+
+    # Local apps
+    'accounts.apps.AccountsConfig',
+    'pages.apps.PagesConfig',
+    'products.apps.ProductsConfig',
+    'cart.apps.CartConfig',
+
 ]
 
 SITE_ID = 1

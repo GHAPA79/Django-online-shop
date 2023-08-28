@@ -3,6 +3,8 @@
 {% load crispy_forms_tags %}
 {% load crispy_forms_filters %}
 {% load i18n %}
+{% load persian_translation_tags %}
+{% load humanize %}
 
 
 {% block page_title %}
@@ -93,22 +95,19 @@
                                         </thead>
                                         <tbody>
                                         <tr>
-                                            <th>محصول شماره یک
-                                                <strong><span>&#10005;</span>۲</strong>
-                                            </th>
-                                            <td class="text-right">۲۹۶,۰۰۰ تومان</td>
-                                        </tr>
-                                        <tr>
-                                            <th>محصول شماره دو
-                                                <strong><span>&#10005;</span>۱</strong>
-                                            </th>
-                                            <td class="text-right">۵۸,۰۰۰ تومان</td>
-                                        </tr>
+                                            {% for item in cart %}
+                                                <th>{{ item.product_obj.title }}
+                                                    <strong><span>&#10005;</span> {{ item.quantity|translate_number }}
+                                                    </strong>
+                                                </th>
+                                                <td class="text-right"> {% trans '$' %} {{ item.product_obj.price|intcomma:False|translate_number }}</td>
+                                                </tr>
+                                            {% endfor %}
                                         </tbody>
                                         <tfoot>
                                         <tr class="cart-subtotal">
                                             <th>مجموع</th>
-                                            <td class="text-right">۳۴۸,۰۰۰ تومان</td>
+                                            <td class="text-right"> {% trans '$' %} {{ cart.get_total_price|intcomma:False|translate_number }}</td>
                                         </tr>
                                         </tfoot>
                                     </table>

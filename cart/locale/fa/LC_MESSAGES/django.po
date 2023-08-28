@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-20 13:26+0330\n"
+"POT-Creation-Date: 2023-08-28 15:21+0330\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,34 +25,40 @@ msgstr "محصول با موفقیت به سبد خرید اضافه شد."
 msgid "Product successfully removed from cart"
 msgstr "محصول با موفقیت از سبد خرید حذف شد."
 
-#: .\templates\cart\cart_detail.html:13
+#: .\templates\cart\cart_detail.html:15
 msgid "Cart"
 msgstr "سبد خرید"
 
-#: .\templates\cart\cart_detail.html:88
-msgid "Cart is empty! Please add some products to the cart"
-msgstr "سبد خرید شما خالی است! تعدادی کالا به سبد خرید اضافه کنید."
-
-#: .\templates\cart\cart_detail.html:89
-msgid "Go shopping!"
-msgstr "رفتن به فروشگاه"
-
-#: .\templates\cart\cart_sidebar.html:8
-msgid "Shopping Bag"
-msgstr "سبد خرید"
-
-#: .\templates\cart\cart_sidebar.html:26 .\templates\cart\cart_sidebar.html:34
+#: .\templates\cart\cart_detail.html:57 .\templates\cart\cart_detail.html:81
+#: .\templates\cart\cart_detail.html:112 .\templates\cart\cart_sidebar.html:28
+#: .\templates\cart\cart_sidebar.html:36
 msgid "$"
 msgstr "تومان"
 
-#: .\templates\cart\cart_sidebar.html:33
+#: .\templates\cart\cart_detail.html:90
+msgid "Cart is empty! Please add some products to the cart"
+msgstr "سبد خرید شما خالی است! تعدادی کالا به سبد خرید اضافه کنید."
+
+#: .\templates\cart\cart_detail.html:91
+msgid "Go shopping!"
+msgstr "رفتن به فروشگاه"
+
+#: .\templates\cart\cart_detail.html:120
+msgid "Place an order"
+msgstr "ثبت سفارش"
+
+#: .\templates\cart\cart_sidebar.html:10
+msgid "Shopping Bag"
+msgstr "سبد خرید"
+
+#: .\templates\cart\cart_sidebar.html:35
 msgid "Total"
 msgstr "جمع کل"
 
-#: .\templates\cart\cart_sidebar.html:38
+#: .\templates\cart\cart_sidebar.html:40
 msgid "View Cart"
 msgstr "سبد خرید"
 
-#: .\templates\cart\cart_sidebar.html:39
+#: .\templates\cart\cart_sidebar.html:41
 msgid "Payment"
 msgstr "پرداخت"

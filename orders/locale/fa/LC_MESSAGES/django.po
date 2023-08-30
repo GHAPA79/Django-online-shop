@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-29 14:43+0330\n"
+"POT-Creation-Date: 2023-08-30 14:50+0330\n"
 "PO-Revision-Date: 2023-08-29 14:48+0330\n"
 "Last-Translator:   <>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,7 +62,15 @@ msgstr "تاریخ تغییر"
 msgid "Place an order"
 msgstr "ثبت سفارش"
 
-#: .\templates\orders\order_create.html:104
-#: .\templates\orders\order_create.html:111
+#: .\templates\orders\order_create.html:79
+msgid "Submit"
+msgstr "ثبت"
+
+#: .\templates\orders\order_create.html:103
+#: .\templates\orders\order_create.html:110
 msgid "$"
 msgstr "تومان"
+
+#: .\views.py:17
+msgid "You can not proceed to checkout page because your cart is empty"
+msgstr "سبد خرید شما خالی می باشد. جهت ثبت سفارش حداقل یک محصول خریداری کنید"

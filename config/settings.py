@@ -194,3 +194,5 @@ CRISPY_AllOWED_TEMPLATE_PACKS = 'bootstrap5'
 
 # Messages config
 MESSAGES_TAGS = {messages.ERROR: 'danger'}
+
+ZARINPAL_MERCHANT_ID = env("DJANGO_ZARINPAL_MERCHANT_ID")
